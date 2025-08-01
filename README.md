@@ -194,7 +194,7 @@ this class. Options:
 
 - `trigger => CodeRef`
 
-    Any time the attribute's value is set (either through the accessor or the constructor), the trigger is called on it. The trigger receives as arguments the instance, and the new value.
+    Any time the attribute's value is set (either through the accessor or the constructor), the trigger is called on it. The trigger receives as arguments the instance, the new value, and optionally the old value if it differs from the new value.
 
 - `builder => Str`
 
